@@ -1,0 +1,9 @@
+.Goods {
+    display: 'flex';
+    color: 'red';
+}
+
+.GoodsImg {
+    width: '10%';
+    
+}

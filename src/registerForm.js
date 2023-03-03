@@ -52,7 +52,7 @@ class RegisterForm extends Component {
                     <Form>
                         Name: <Field type="name" name="name"/>
                         <ErrorMessage name="name" component="div"/>
-                        Job: <Field type="job" name="job"/>
+                        Password: <Field type="password" name="password"/>
                         <ErrorMessage name="job" component="div"/>
                         <button type="submit" disabled={isSubmitting}>Submit</button>
                     </Form>

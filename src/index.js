@@ -5,6 +5,7 @@ import Register from './routes/register';
 import Home from './routes/home'
 import React from 'react'
 import ErrorPage from './routes/errorPage';
+import "./Goods.css"
 
 const router = createBrowserRouter([
     {
