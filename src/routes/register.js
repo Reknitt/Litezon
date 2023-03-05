@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Table from '../Table'
-import RegisterForm from "../registerForm"
+import RegisterForm from "../mainForm"
 
 
 class Register extends Component {

@@ -5,9 +5,14 @@ import Register from './routes/register';
 import Home from './routes/home'
 import React from 'react'
 import ErrorPage from './routes/errorPage';
-import "./Goods.css"
+import Login from './routes/login';
+
 
 const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <Home />
+    },
     {
         path: "/register",
         element: <Register />,
@@ -17,6 +22,10 @@ const router = createBrowserRouter([
         path: "/home",
         element: <Home />,
         errorElement: <ErrorPage /> 
+    },
+    {
+        path: "/login",
+        element: <Login />,
     }
 ])
 

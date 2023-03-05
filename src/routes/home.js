@@ -13,8 +13,8 @@ class Home extends Component {
 
         return (
             <div>
-                Hello, it's home page of litezon store
-                <div>
+                <div style={this.divStyle}>
+                    Hello, it's home page of litezon store <br></br>
                     <Link to={'/register'}>Sign up</Link> <br></br>
                     <Link to={'/login'}>Sign in</Link>
                 </div>
